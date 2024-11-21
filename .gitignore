@@ -1,0 +1,55 @@
+# SAM build artifacts
+.aws-sam/
+
+# Python dependencies (if using Python)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+Pipfile.lock
+
+# Node.js dependencies (if using Node.js)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Java dependencies (if using Java)
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# Go dependencies (if using Go)
+*.exe
+*.out
+*.mod
+*.sum
+
+# Terraform (if Terraform is used alongside SAM)
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# AWS CLI configurations
+*.awssecret
+*.awscredentials
+
+# General IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+
+# Ignore environment variables and secrets
+.env
+.env.*
