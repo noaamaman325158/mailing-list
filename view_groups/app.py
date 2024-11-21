@@ -4,8 +4,7 @@ import json
 
 
 def lambda_handler(event, context):
-    body = { "groups": ["AWS", "Lambda", "API"]}
     return {
         "statusCode": 200,
-        "body": body
+        "body": json.dumps({ "groups": ["AWS", "Lambda", "API"]})
     }
